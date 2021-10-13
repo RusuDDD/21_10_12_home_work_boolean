@@ -12,7 +12,7 @@ public class Main {
     }
 
     static boolean dividedThree(int x) {
-        return x % 3 == 0;
+        return x % 3 == 0 & x > 0;
     }
 
     static boolean dividedFiveOrSeven(int x) {
