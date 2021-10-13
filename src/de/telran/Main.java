@@ -20,7 +20,7 @@ public class Main {
     }
 
     static boolean integerBetween(int x) {
-        return x >= 100 & x <= 200;
+        return x >= 100 & x % 2 <= 200;
     }
 
    /* static boolean bank(int x) {
